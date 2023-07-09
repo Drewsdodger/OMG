@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#discussion-board form {
+    margin-bottom: 20px;
+}
+
+#discussion-board input[type="text"],
+#discussion-board textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#discussion-board button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#posts {
+    /* Add your styles for the displayed posts here */
+}
